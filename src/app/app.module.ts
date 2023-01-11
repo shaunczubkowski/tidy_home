@@ -16,9 +16,8 @@ import { CommonModule } from '@angular/common';
     BrowserModule,
     CommonModule,
     RouterModule.forRoot([
-      {
-        path: '', component: HomeComponent
-      }
+      { path: 'home', loadChildren: () => import('./home/home.module').then(m => m.HomeModule) },
+      { path: '', redirectTo: 'home', pathMatch: 'full' }
     ]),
     SharedComponentsModule,
     HttpClientModule
