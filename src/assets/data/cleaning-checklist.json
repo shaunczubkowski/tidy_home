@@ -1,0 +1,555 @@
+{
+  "rooms": [
+    {
+      "kitchen": {
+        "displayName": "Kitchen",
+        "iconClass": "fa-thin fa-kitchen-set",
+        "daily": {
+          "taskList": [
+            {
+              "id": 1,
+              "task": "wash dishes",
+              "completed": false
+            },
+            {
+              "id": 2,
+              "task": "clear and wipe table",
+              "completed": false
+            },
+            {
+              "id": 3,
+              "task": "wipe the sink",
+              "completed": false
+            },
+            {
+              "id": 4,
+              "task": "sweep",
+              "completed": false
+            },
+            {
+              "id": 5,
+              "task": "wipe up spots on the floor",
+              "completed": false
+            },
+            {
+              "id": 6,
+              "task": "take out trash",
+              "completed": false
+            },
+            {
+              "id": 7,
+              "task": "wipe countertops and stove",
+              "completed": false
+            }
+          ]
+        },
+        "weekly": {
+          "taskList": [
+            {
+              "id": 1,
+              "task": "wipe up spills in fridge",
+              "completed": false
+            },
+            {
+              "id": 2,
+              "task": "throw out old food",
+              "completed": false
+            },
+            {
+              "id": 3,
+              "task": "clean outside of appliances",
+              "completed": false
+            },
+            {
+              "id": 4,
+              "task": "scrub and shine sink",
+              "completed": false
+            },
+            {
+              "id": 5,
+              "task": "shake or vacuum rungs",
+              "completed": false
+            },
+            {
+              "id": 6,
+              "task": "mop",
+              "completed": false
+            }
+          ]
+        },
+        "monthly": {
+          "taskList": [
+            {
+              "id": 1,
+              "task": "dust blinds and vacuum curtains",
+              "completed": false
+            },
+            {
+              "id": 2,
+              "task": "wash windows",
+              "completed": false
+            },
+            {
+              "id": 3,
+              "task": "wipe cupboard doors",
+              "completed": false
+            },
+            {
+              "id": 4,
+              "task": "clean fridge",
+              "completed": false
+            },
+            {
+              "id": 5,
+              "task": "clean oven and oven hood",
+              "completed": false
+            },
+            {
+              "id": 6,
+              "task": "clean small appliances",
+              "completed": false
+            },
+            {
+              "id": 7,
+              "task": "wash trashcans",
+              "completed": false
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bathroom": {
+        "displayName": "Bathroom",
+        "iconClass": "fa-light fa-toilet",
+        "daily": {
+          "taskList": [
+            {
+              "id": 1,
+              "task": "spray shower with shower mist",
+              "completed": false
+            },
+            {
+              "id": 2,
+              "task": "clean mirror",
+              "completed": false
+            },
+            {
+              "id": 3,
+              "task": "wipe the sink and counter",
+              "completed": false
+            },
+            {
+              "id": 4,
+              "task": "clean the toilet bowl",
+              "completed": false
+            },
+            {
+              "id": 5,
+              "task": "wipe toilet seat and rim",
+              "completed": false
+            }
+          ]
+        },
+        "weekly": {
+          "taskList": [
+            {
+              "id": 1,
+              "task": "mop",
+              "completed": false
+            },
+            {
+              "id": 2,
+              "task": "clean sink/countertop",
+              "completed": false
+            },
+            {
+              "id": 3,
+              "task": "wipe door/knobs",
+              "completed": false
+            },
+            {
+              "id": 4,
+              "task": "clean tub",
+              "completed": false
+            },
+            {
+              "id": 5,
+              "task": "clean outside of toilet",
+              "completed": false
+            },
+            {
+              "id": 6,
+              "task": "empty trash",
+              "completed": false
+            },
+            {
+              "id": 7,
+              "task": "shake or vaduum rugs",
+              "completed": false
+            }
+          ]
+        },
+        "monthly": {
+          "taskList": [
+            {
+              "id": 1,
+              "task": "clean showerhead",
+              "completed": false
+            },
+            {
+              "id": 2,
+              "task": "wash windows",
+              "completed": false
+            },
+            {
+              "id": 3,
+              "task": "wash rugs",
+              "completed": false
+            },
+            {
+              "id": 4,
+              "task": "wash trash can",
+              "completed": false
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bedrooms": {
+        "displayName": "Bedrooms",
+        "iconClass": "fa-thin fa-bed",
+        "daily": {
+          "taskList": [
+            {
+              "id": 1,
+              "task": "make bed",
+              "completed": false
+            },
+            {
+              "id": 2,
+              "task": "straighten nightstand",
+              "completed": false
+            },
+            {
+              "id": 3,
+              "task": "put clothes away",
+              "completed": false
+            }
+          ]
+        },
+        "weekly": {
+          "taskList": [
+            {
+              "id": 1,
+              "task": "change sheets",
+              "completed": false
+            },
+            {
+              "id": 2,
+              "task": "dust",
+              "completed": false
+            },
+            {
+              "id": 3,
+              "task": "vacuum",
+              "completed": false
+            }
+          ]
+        },
+        "monthly": {
+          "taskList": [
+            {
+              "id": 1,
+              "task": "straighten shoes",
+              "completed": false
+            },
+            {
+              "id": 2,
+              "task": "straighten drawers",
+              "completed": false
+            },
+            {
+              "id": 3,
+              "task": "dust blinds/vacuum curtains",
+              "completed": false
+            },
+            {
+              "id": 4,
+              "task": "wash windows",
+              "completed": false
+            },
+            {
+              "id": 5,
+              "task": "vacuum around the edges of room",
+              "completed": false
+            }
+          ]
+        }
+      }
+    },
+    {
+      "living-room": {
+        "displayName": "Living Room",
+        "iconClass": "fa-thin fa-couch",
+        "daily": {
+          "taskList": [
+            {
+              "id": 1,
+              "task": "clean up the clutter",
+              "completed": false
+            },
+            {
+              "id": 2,
+              "task": "straighten pillows/cushions",
+              "completed": false
+            },
+            {
+              "id": 3,
+              "task": "straighten coffee/end tables",
+              "completed": false
+            },
+            {
+              "id": 4,
+              "task": "wipe spots off tables",
+              "completed": false
+            }
+          ]
+        },
+        "weekly": {
+          "taskList": [
+            {
+              "id": 1,
+              "task": "dust",
+              "completed": false
+            },
+            {
+              "id": 2,
+              "task": "vacuum",
+              "completed": false
+            },
+            {
+              "id": 3,
+              "task": "straighten books, magazines, games, etc...",
+              "completed": false
+            }
+          ]
+        },
+        "monthly": {
+          "taskList": [
+            {
+              "id": 1,
+              "task": "clean mirrors/dust pictures",
+              "completed": false
+            },
+            {
+              "id": 2,
+              "task": "clean electronics",
+              "completed": false
+            },
+            {
+              "id": 3,
+              "task": "dust blinds/vacuum curtains",
+              "completed": false
+            },
+            {
+              "id": 4,
+              "task": "wash windows",
+              "completed": false
+            },
+            {
+              "id": 5,
+              "task": "vacuum couch/recliner",
+              "completed": false
+            },
+            {
+              "id": 6,
+              "task": "vacuum around the edges of room",
+              "completed": false
+            }
+          ]
+        }
+      }
+    },
+    {
+      "home-office": {
+        "displayName": "Home Office",
+        "iconClass": "fa-thin fa-lamp-desk",
+        "daily": {
+          "taskList": [
+            {
+              "id": 1,
+              "task": "clean up the clutter",
+              "completed": false
+            },
+            {
+              "id": 2,
+              "task": "sort mail",
+              "completed": false
+            }
+          ]
+        },
+        "weekly": {
+          "taskList": [
+            {
+              "id": 1,
+              "task": "file/shred papers",
+              "completed": false
+            },
+            {
+              "id": 2,
+              "task": "dust",
+              "completed": false
+            },
+            {
+              "id": 3,
+              "task": "vacuum",
+              "completed": false
+            }
+          ]
+        },
+        "monthly": {
+          "taskList": [
+            {
+              "id": 1,
+              "task": "clean mirrors/dust pictures",
+              "completed": false
+            },
+            {
+              "id": 2,
+              "task": "dust blinds/vacuum curtains",
+              "completed": false
+            },
+            {
+              "id": 3,
+              "task": "wash windows",
+              "completed": false
+            },
+            {
+              "id": 4,
+              "task": "vacuum around the edges of room",
+              "completed": false
+            }
+          ]
+        }
+      }
+    },
+    {
+      "laundry-utility-room": {
+        "displayName": "Laundry & Utility Room",
+        "iconClass": "fa-thin fa-washing-machine",
+        "daily": {
+          "taskList": [
+            {
+              "id": 1,
+              "task": "laundry - clothes",
+              "completed": false
+            },
+            {
+              "id": 2,
+              "task": "sweep",
+              "completed": false
+            },
+            {
+              "id": 3,
+              "task": "remove lint from dryer vent",
+              "completed": false
+            }
+          ]
+        },
+        "weekly": {
+          "taskList": [
+            {
+              "id": 1,
+              "task": "dust shelves",
+              "completed": false
+            },
+            {
+              "id": 2,
+              "task": "wipe washer/dryer",
+              "completed": false
+            },
+            {
+              "id": 3,
+              "task": "wash bedding and towels",
+              "completed": false
+            }
+          ]
+        },
+        "monthly": {
+          "taskList": [
+            {
+              "id": 1,
+              "task": "clean inside of washer/dryer",
+              "completed": false
+            },
+            {
+              "id": 2,
+              "task": "wash windows",
+              "completed": false
+            },
+            {
+              "id": 3,
+              "task": "change filters on heating/AC units",
+              "completed": false
+            },
+            {
+              "id": 4,
+              "task": "mop",
+              "completed": false
+            }
+          ]
+        }
+      }
+    },
+    {
+      "entryway": {
+        "displayName": "Entryway",
+        "iconClass": "fa-thin fa-door-open",
+        "daily": {
+          "taskList": [
+            {
+              "id": 1,
+              "task": "pick up clutter",
+              "completed": false
+            },
+            {
+              "id": 2,
+              "task": "clean cat litter",
+              "completed": false
+            }
+          ]
+        },
+        "weekly": {
+          "taskList": [
+            {
+              "id": 1,
+              "task": "sweep/vacuum entry and steps",
+              "completed": false
+            }
+          ]
+        },
+        "monthly": {
+          "taskList": [
+            {
+              "id": 1,
+              "task": "wash windows",
+              "completed": false
+            },
+            {
+              "id": 2,
+              "task": "wash hand rails and door",
+              "completed": false
+            },
+            {
+              "id": 3,
+              "task": "mop",
+              "completed": false
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

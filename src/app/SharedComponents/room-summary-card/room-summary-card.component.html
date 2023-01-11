@@ -1,0 +1,16 @@
+<div class="room-summary-card">
+  <div class="room-summary-card__name">
+    {{ room?.name }}
+  </div>
+  <div class="room-summary-card__icon" *ngIf="room?.iconClass"></div>
+  <div class="room-summary-card__progress">{{ progress | percent }}</div>
+  <div
+    [ngClass]="{
+      'room-summary-card__status-completed': progress === 1,
+      'room-summary-card__status-in-progress': progress! < 1
+    }"
+    class="room-summary-card__status"
+  >
+    {{ progress === 1 ? "Completed" : "In-Progress" }}
+  </div>
+</div>
