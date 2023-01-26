@@ -1,8 +1,7 @@
-<div class="room-summary-card">
+<div class="room-summary-card" (click)="navigateToRoom($event)">
   <div class="room-summary-card__name">
-    {{ room?.name }}
+    {{ room?.displayName }}
   </div>
-  <div class="room-summary-card__icon" *ngIf="room?.iconClass"></div>
   <div class="room-summary-card__progress">{{ progress | percent }}</div>
   <div
     [ngClass]="{

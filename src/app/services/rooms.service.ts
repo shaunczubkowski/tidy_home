@@ -10,20 +10,20 @@ export class RoomsService {
 
   constructor(private http: HttpClient) { }
 
-  getRoomSummaries(): Observable<Room.Summary[]> {
-    return this.http.get<Room.ListOfRooms>('/assets/data/cleaning-checklist.json')
-      .pipe(
-        map((data) => {
-          const { rooms } = data;
-          const roomSummaries = [] as Room.Summary[];
-          rooms.map((room: Room.RoomDetails | any) => {
-            const roomName = [Object.keys(room)[0]][0];
-            roomSummaries.push({
-              name: room[roomName].displayName,
-              iconClass: room.iconClass
-            })
-          });
-          return roomSummaries;
-        }));
+  getRooms(): Observable<Room.RoomDetails[]> {
+    return this.http.get<Room.RoomDetails[]>('/assets/data/cleaning-checklist.json')
+      // .pipe(
+      //   map((data) => {
+      //     const { rooms } = data;
+      //     const roomDetails = [] as Room.RoomDetails[];
+      //     rooms.map((room: Room.RoomDetails | any) => {
+      //       const roomName = [Object.keys(room)[0]][0];
+      //       roomDetails.push({
+      //         displayName: room[roomName].displayName
+
+      //       })
+      //     });
+      //     return roomDetails;
+      //   }));
   }
 }

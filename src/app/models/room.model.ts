@@ -1,16 +1,7 @@
 export namespace Room {
-  export interface Summary {
-    name: string,
-    iconClass: string,
-  }
-
-  export interface ListOfRooms {
-    rooms: Array<RoomDetails>
-  }
-
   export interface RoomDetails {
+    name: string,
     displayName: string,
-    iconClass: string,
     daily: Task[],
     weekly: Task[],
     monthly: Task[]

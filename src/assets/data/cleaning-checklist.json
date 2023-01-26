@@ -74,6 +74,11 @@
               "id": 6,
               "task": "mop",
               "completed": false
+            },
+            {
+              "id": 7,
+              "task": "clean cat bowls",
+              "completed": false
             }
           ]
         },
@@ -112,6 +117,11 @@
             {
               "id": 7,
               "task": "wash trashcans",
+              "completed": false
+            },
+            {
+              "id": 8,
+              "task": "clean espresso machine",
               "completed": false
             }
           ]

@@ -17,7 +17,8 @@ import { CommonModule } from '@angular/common';
     CommonModule,
     RouterModule.forRoot([
       { path: 'home', loadChildren: () => import('./home/home.module').then(m => m.HomeModule) },
-      { path: '', redirectTo: 'home', pathMatch: 'full' }
+      { path: 'room', loadChildren: () => import('./room/room.module').then(m => m.RoomModule) },
+      { path: '', redirectTo: 'home', pathMatch: 'full' },
     ]),
     SharedComponentsModule,
     HttpClientModule

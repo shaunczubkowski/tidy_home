@@ -1,4 +1,5 @@
 import { Component, OnInit, ChangeDetectionStrategy, Input } from '@angular/core';
+import { Router } from '@angular/router';
 import { Room } from 'src/app/models/room.model';
 
 @Component({
@@ -8,15 +9,18 @@ import { Room } from 'src/app/models/room.model';
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class RoomSummaryCardComponent implements OnInit {
-  @Input() room: Room.Summary | undefined;
+  @Input() room: Room.RoomDetails | undefined;
 
   public progress: number | undefined;
-  public icon: string = 'fa-thin fa-ballot-check';
 
-  constructor() { }
+  constructor(private router: Router) { }
 
   ngOnInit(): void {
     this.progress = 1;
+  }
+
+  navigateToRoom(args: any): void {
+    // this.router.navigate(['/room'], {queryParams: { room: ar }})
   }
 
 }
