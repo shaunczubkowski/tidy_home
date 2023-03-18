@@ -22,7 +22,7 @@ public class RoomService {
   }
 
   public Room save(Room room) {
-      return roomRepository.save(room);
+    return roomRepository.save(room);
   }
 
   public Optional<Room> findById(long id) {
@@ -32,8 +32,6 @@ public class RoomService {
   public void delete(Room room) {
     roomRepository.delete(room);
   }
-
-
 
 
 }

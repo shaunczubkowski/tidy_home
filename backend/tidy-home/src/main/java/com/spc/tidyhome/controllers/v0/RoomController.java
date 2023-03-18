@@ -1,4 +1,4 @@
-package com.spc.tidyhome.controllers;
+package com.spc.tidyhome.controllers.v0;
 
 import com.spc.tidyhome.entities.Room;
 import com.spc.tidyhome.services.RoomService;
@@ -15,7 +15,7 @@ import java.rmi.ServerException;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/rooms")
+@RequestMapping("/api/v0/rooms")
 public class RoomController {
 
   @Autowired
@@ -61,6 +61,5 @@ public class RoomController {
     roomService.delete(deleteRoom);
 
     return new ResponseEntity(HttpEntity.EMPTY, HttpStatus.OK);
-
   }
 }

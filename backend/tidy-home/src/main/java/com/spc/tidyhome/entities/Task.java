@@ -3,13 +3,13 @@ package com.spc.tidyhome.entities;
 import jakarta.persistence.*;
 
 @Entity
-@Table(name = "rooms")
-public class Room {
+@Table(name = "tasks")
+public class Task {
+
   @Id
   @GeneratedValue(strategy = GenerationType.IDENTITY)
   private Long id;
   private String name;
-  private Boolean active;
 
   public Long getId() {
     return id;
@@ -27,20 +27,11 @@ public class Room {
     this.name = name;
   }
 
-  public Boolean getActive() {
-    return active;
-  }
-
-  public void setActive(Boolean active) {
-    this.active = active;
-  }
-
   @Override
   public String toString() {
-    return "room{" +
+    return "Task{" +
       "id=" + id +
       ", name='" + name + '\'' +
-      ", active=" + active +
       '}';
   }
 }
