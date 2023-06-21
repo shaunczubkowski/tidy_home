@@ -1,8 +1,0 @@
-<div class="daily__room-summary-cards-container">
-  <ul class="daily__room-summary-cards">
-    <ng-container *ngFor="let room of roomList$ | async">
-      {{ room }}
-      <li><app-room-summary-card [room]="room"></app-room-summary-card></li>
-    </ng-container>
-  </ul>
-</div>
