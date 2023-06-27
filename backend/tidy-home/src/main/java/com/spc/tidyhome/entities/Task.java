@@ -1,13 +1,25 @@
 package com.spc.tidyhome.entities;
 
 import jakarta.persistence.*;
+import org.hibernate.annotations.GenericGenerator;
+
+import java.io.Serializable;
 
 @Entity
 @Table(name = "tasks")
-public class Task {
+public class Task implements Serializable {
+
+  public Task(String name) {
+    this.name = name;
+  }
+
+  public Task() {
+
+  }
 
   @Id
-  @GeneratedValue(strategy = GenerationType.IDENTITY)
+  @GeneratedValue(strategy = GenerationType.AUTO, generator = "seq")
+  @GenericGenerator(name = "seq", strategy = "increment")
   private Long id;
   private String name;
 

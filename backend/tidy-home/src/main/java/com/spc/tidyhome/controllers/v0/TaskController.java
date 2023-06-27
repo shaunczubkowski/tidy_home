@@ -15,6 +15,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/v0/tasks")
+@CrossOrigin("*")
 public class TaskController {
 
   @Autowired
@@ -24,11 +25,13 @@ public class TaskController {
     this.taskService = taskService;
   }
 
+  @CrossOrigin("*")
   @GetMapping(produces = MediaType.APPLICATION_JSON_VALUE)
   public ResponseEntity<List<Task>> getTasks() {
     return new ResponseEntity<List<Task>>(taskService.getAllTasks(), HttpStatus.OK);
   }
 
+  @CrossOrigin("*")
   @PostMapping(consumes = MediaType.APPLICATION_JSON_VALUE,
     produces = MediaType.APPLICATION_JSON_VALUE)
   public ResponseEntity<Task> create(@RequestBody Task newTask) throws ServerException {
@@ -41,6 +44,7 @@ public class TaskController {
     }
   }
 
+  @CrossOrigin("*")
   @PutMapping("{id}")
   public ResponseEntity<Task> update(@PathVariable long id, @RequestBody Task taskDetails) throws EntityNotFoundException {
     Task updateTask = taskService.findById(id).orElseThrow(() -> new EntityNotFoundException());
@@ -52,6 +56,7 @@ public class TaskController {
     return new ResponseEntity<>(updateTask, HttpStatus.OK);
   }
 
+  @CrossOrigin("*")
   @DeleteMapping("{id}")
   public ResponseEntity delete(@PathVariable long id) throws EntityNotFoundException {
     Task deleteTask = taskService.findById(id).orElseThrow(() -> new EntityNotFoundException());

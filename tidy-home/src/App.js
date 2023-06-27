@@ -5,6 +5,7 @@ import Settings from "./pages/Settings";
 import NoMatch from "./pages/NoMatch";
 import ManageRooms from "./pages/ManageRooms";
 import ManageTasks from "./pages/ManageTasks";
+import AddTask from "./pages/AddTask";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Route path="settings" element={<Settings />} />
           <Route path="/settings/manage-rooms" element={<ManageRooms /> } /> 
           <Route path="/settings/manage-tasks" element={<ManageTasks /> } />
+          <Route path="/settings/manage-tasks/add" element={<AddTask /> } />
           <Route path="*" element={<NoMatch />} />
         </Route>
       </Routes>

@@ -2,9 +2,11 @@ package com.spc.tidyhome.entities;
 
 import jakarta.persistence.*;
 
+import java.io.Serializable;
+
 @Entity
 @Table(name = "rooms")
-public class Room {
+public class Room implements Serializable {
   @Id
   @GeneratedValue(strategy = GenerationType.IDENTITY)
   private Long id;
